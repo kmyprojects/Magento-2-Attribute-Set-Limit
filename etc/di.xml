@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+ /**
+ * @author MageKwik Team <support@magekwik.com>
+ * @copyright Copyright (c) 2025 Mage Kwik (https://www.magekwik.com)
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Eav\Api\AttributeManagementInterface">
+        <plugin name="attribute_set_limit_plugin" type="Magekwik\AttributeSetLimit\Plugin\AttributeManagementPlugin" sortOrder="10" />
+    </type>
+    <type name="Magento\Eav\Model\Entity\Attribute\Set">
+        <plugin name="attribute_set_limit_organize_plugin" type="Magekwik\AttributeSetLimit\Plugin\AttributeSetPlugin" sortOrder="10" />
+    </type>
+</config>

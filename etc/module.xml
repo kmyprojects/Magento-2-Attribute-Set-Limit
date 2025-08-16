@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+ /**
+ * @author MageKwik Team <support@magekwik.com>
+ * @copyright Copyright (c) 2025 Mage Kwik (https://www.magekwik.com)
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Magekwik_AttributeSetLimit" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Eav"/>
+            <module name="Magento_Catalog"/>
+        </sequence>
+    </module>
+</config>
