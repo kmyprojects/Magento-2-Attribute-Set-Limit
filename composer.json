@@ -2,7 +2,7 @@
     "name": "magekwik/attribute-set-limit",
     "description": "A Magento 2 module to enforce a maximum limit of 500 attributes per product attribute set, preventing additions via admin or API when the limit is reached.",
     "type": "magento2-module",
-    "version": "1.0.4",
+    "version": "1.0.0",
     "license": "OSL-3.0",
     "require": {
         "php": ">=7.4",
